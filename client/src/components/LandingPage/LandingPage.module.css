@@ -1,0 +1,62 @@
+.backgroundImage {
+  background-image: url("../../images/background.jpg");
+  background-position: bottom;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+}
+
+.container{
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  height: 200px;
+  width: 400px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: bold;
+  color: #0088cc;
+  text-align: center;
+  margin-top: 5px;
+}
+
+.myButton {
+	box-shadow:inset 0px 0px 14px -3px #bee2f9;
+	background:linear-gradient(to bottom, #63b8ee 5%, #468ccf 100%);
+	background-color:#63b8ee;
+	border-radius:6px;
+	border:1px solid #3866a3;
+	display:inline-block;
+	cursor:pointer;
+	color:#f5f5f5;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #7cacde;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #468ccf 5%, #63b8ee 100%);
+	background-color:#468ccf;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.advertisement {
+	z-index: 1;
+	position: absolute;
+	height: 100vh;
+	width: 100vw;
+}
+
+.displayNone {
+	display: none;
+}
+        

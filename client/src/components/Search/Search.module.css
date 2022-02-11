@@ -1,0 +1,6 @@
+.container {
+    background-image: url("../../images/2.jpg");
+    overflow: hidden;
+    background-repeat: round;
+    height: 100%;
+}
